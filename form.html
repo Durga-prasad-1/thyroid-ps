@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Thyroid Detection </title>
+</head>
+<body>
+    <div class="container">
+        <div class="black">
+            <header>                    
+                <div class="con">
+                    <div id="space_even">
+                            <h1>Thyroid Detection</h1>
+                        <nav>
+                            <ul class="nodes">
+                                <li><a href="index.html" target="_parent">Home</a></li>            
+                            </ul>
+                        </nav> 
+                    </div>
+                </div>
+            </header>        
+            <section>
+                <div class="con">
+                    <div class="main">
+                        <form action="">
+                            <div class="form">
+                            <div class="box">
+                                <p>Name: </p>
+                                <br>
+                            <label for="name">                                                         
+                                <input class="input"  type="text" id="name" placeholder="Enter name..">  
+                                <br>                                                           
+                            </label>  
+                        </div>            
+                        <div class="box">
+                            <p>Gender: </p>
+                            <br>
+                            <label for="Genders_id">
+                                <input  class="input" list="Gender" name="Genders" id="Genders_id">
+                                <datalist id="Gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Others">Others</option>
+                                </datalist>
+                                <br>
+                            </label>
+                        </div>       
+                        <div class="box">
+                            <p>On thyroid: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                            <input type="radio" name="onthyroid" class="radio-button__input" value="Yes" id="Yes" >
+                            <label for="Yes" class="radio-button__label">
+                                <span class="radio-button__custom"></span>
+                                Yes
+                                </label>
+                                <input type="radio" name="onthyroid" class="radio-button__input" value="No"id="No">
+                                <label for="No" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div>
+                        </div> 
+                        <div class="box">
+                            <p>On antithyroid medication: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                                <input type="radio" name="On_antithyroid_medication" class="radio-button__input" value="Yes" id="Yes1">
+                            <label for="Yes1" class="radio-button__label">
+                                <span class="radio-button__custom"></span>
+                                Yes                                
+                                </label>
+                                <input type="radio" name="On_antithyroid_medication" class="radio-button__input" value="No"id="No1">
+                                <label for="No1" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div>
+                        </div> 
+                        <div class="box">
+                            <p>Sick: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                            <input type="radio" name="sick" value="Yes" class="radio-button__input" id="Yes9">
+                            <label for="Yes9" class="radio-button__label">
+                                <span class="radio-button__custom"></span>
+                                Yes                             
+                                </label>
+                                <input type="radio" name="sick" value="No" class="radio-button__input" id="No9">
+                                <label for="No9" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div> 
+                            
+                        </div> 
+                        <div class="box">
+                            <p>Pregnant: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                                <input type="radio" name="Pregnant" class="radio-button__input" value="Yes" id="Yes2">
+                            <label for="Yes2" class="radio-button__label">
+                                <span class="radio-button__custom"></span>
+                                Yes
+                                
+                                </label>
+                                <input type="radio" name="Pregnant" class="radio-button__input" value="No"id="No2">
+                                <label for="No2" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div> 
+                    </div>
+                        <div class="box">
+                            <p>Thyroid surgery: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                                <input type="radio" name="Thyroid_surgery" class="radio-button__input" value="Yes" id="Yes3">
+                            <label for="Yes3" class="radio-button__label">     
+                                <span class="radio-button__custom"></span>
+                                Yes
+                                </label>
+                                <input type="radio" name="Thyroid_surgery" class="radio-button__input" value="No"id="No3">
+                                <label for="No3" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div>
+                        </div> 
+                        <div class="box">
+                            <p>I131 treatment: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                            <input type="radio" name="I131_treatment" class="radio-button__input" value="Yes" id="Yes4">
+                            <label for="Yes4" class="radio-button__label"> 
+                                <span class="radio-button__custom"></span>
+                                Yes                                                          
+                                </label>
+                                <input type="radio" name="I131_treatment" class="radio-button__input" value="No"id="No4">
+                                <label for="No4" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <p>Goitre: </p>
+                            <br>
+                            <div class="radio-buttons-container">
+                            <input type="radio" name="Goitre" class="radio-button__input" value="Yes" id="Yes5">
+                            <label for="Yes5" class="radio-button__label">
+                                <span class="radio-button__custom"></span>
+                                Yes                                  
+                                </label>
+                                <input type="radio" name="Goitre" class="radio-button__input" value="No"id="No5">
+                                <label for="No5" class="radio-button__label">
+                                <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div>
+                        </div>
+                        <div class="box">
+                            <p>Tumor: </p>
+                            <br>
+                            <div class="radio-buttons-container">                            
+                            <input type="radio" name="Goitre" class="radio-button__input" value="Yes" id="Yes6">
+                            <label for="Yes6" class="radio-button__label">                                
+                                <span class="radio-button__custom"></span>
+                                Yes  
+                                </label>
+                                <input type="radio" name="Goitre" class="radio-button__input" value="No"id="No6">
+                                <label for="No6" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div>
+                        </div>
+                        <div class="box">
+                            <p>Hypopituitary: </p>
+                            <br>
+                            <div class="radio-buttons-container"> 
+                                <input type="radio" name="Hypopituitary" class="radio-button__input" value="Yes" id="Yes7">
+                            <label for="Yes7" class="radio-button__label">     
+                                <span class="radio-button__custom"></span>
+                                    Yes                           
+                                </label>
+                                <input type="radio" name="Hypopituitary" class="radio-button__input" value="No"id="No7">
+                                <label for="No7" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                        </div>
+                        </div>
+                        <div class="box">
+                            <p>Psych: </p>
+                            <br>
+                            <div class="radio-buttons-container"> 
+                            <input type="radio" name="Psych" class="radio-button__input" value="Yes" id="Yes8">
+                            <label for="Yes8" class="radio-button__label" >  
+                                <span class="radio-button__custom"></span>
+                                    Yes                               
+                                </label>
+                                <input type="radio" name="Psych" class="radio-button__input" value="No"id="No8">
+                                <label for="No8" class="radio-button__label">
+                                    <span class="radio-button__custom"></span>
+                                    No
+                            </label>
+                            </div>
+                        </div>
+                        <div class="box">
+                            
+                            <p>TSH:</p>
+                            <br>
+                            <input  class="input"  type="text" placeholder="Enter TSH value" id="tsh">                            
+                        </div>
+                        <div class="box">
+                            <p>T3:</p>
+                            <br/>
+                            <input  class="input" type="text" placeholder="Enter T3 value"/>
+                        </div>
+                        
+                        <div class="box">
+                            <p>TT4:</p>
+                            <br>
+                            <input  class="input"  type="text" placeholder="Enter TT4 value">
+                        </div>
+                        <div class="box">
+                            <p>T4U:</p>
+                            <br>
+                            <input  class="input"  type="text" placeholder="Enter T4U value">
+                        </div>
+                        <div class="box">
+                            <p>FTI:</p>
+                            <br>
+                            <input  class="input" type="text" placeholder="Enter FTI value">
+                                </div>
+                            </div>
+                            <div class="button_class" >
+                        <button class="_button" value="Submit">Submit</button>
+                    </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

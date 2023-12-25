@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thyroid detection</title>
+    <style>
+        .main{
+            display:flex;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            position:fixed;
+            background-color: #C2D9FF;
+            flex-direction: column;
+            width: 300px;
+            min-height: 450px;
+            top: 10%;
+            left: 37%;
+            border-radius:20px;
+            align-content: center;
+        }
+        input{
+            padding: 5px;
+            width: 77%;
+        }
+        .inputs{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            width: 200px;
+            min-height: 200px;
+            left: 15%;
+        }
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 450;
+        }
+        #reg{
+            width: 145px;
+            font-size: large;
+            margin-top: 30px;
+            background-color: #190482 ;
+            color: white;
+            border-radius: 30%;
+        }
+        .panel{
+            display: flex;
+            position: relative;
+            background-color: #8E8FFA;
+            border-radius: 20px;
+            top: 20px;
+            left: 45px;
+            width: 200px;
+            height: 40px;
+            align-content: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .login{
+            display: flex;
+            padding-top: 10px;
+            padding-left:30px;
+            width: 30px;
+            height: 10px;
+            background-color: #8E8FFA;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+        .sign{
+            display: flex;
+            padding-top: 10px;
+            padding-left:10px;
+            width: 120px;
+            height: 10px;
+            background-color: white;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+        .panel>.sign{
+            padding-left:20px ;
+        }
+        input{
+            padding: 5px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="panel">
+            <div class="login" ><a href="./login1.html" style="text-decoration: none; color: white;">Login</a></div>
+
+            <div class="sign"><a  href="./register.html" style="text-decoration: none; color: black;">Sign up</a></div>
+
+        </div>
+        <hr>
+        <div class="inputs">
+            <p>Username</p>
+            <input type="text" placeholder="Enter user name" required>
+            <p>Email address</p>
+            <input type="text" placeholder="Enter Email address">
+            <p>Password</p>
+            <input type="password" placeholder="Enter password" >
+            <p>Confirm password</p>
+            <input type="text" placeholder="Renter your password" >
+            <button id="reg">Register</button>
+        </div>
+    </div>
+</body>
+</html>
